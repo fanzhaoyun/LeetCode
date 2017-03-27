@@ -168,6 +168,7 @@
     <ClCompile Include="SearchinRotatedSortedArray.cpp" />
     <ClCompile Include="SearchInsertPosition.cpp" />
     <ClCompile Include="SubstringwithConcatenationofAllWords.cpp" />
+    <ClCompile Include="SudokuSolver.cpp" />
     <ClCompile Include="SwapNodesinPairs.cpp" />
     <ClCompile Include="threeSumClosest.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />

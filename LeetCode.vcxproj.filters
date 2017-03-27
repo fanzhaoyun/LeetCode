@@ -98,5 +98,8 @@
     <ClCompile Include="ValidSudoku.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="SudokuSolver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

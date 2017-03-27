@@ -136,12 +136,18 @@ void test9() {
 		}
 		board.push_back(temp);
 	}
-	cout << solution.isValidSudoku(board) << endl;
+	solution.solveSudoku(board);
+	for (int i = 0; i < board.size(); i++) {
+		for (int j = 0; j < board[i].size(); j++) {
+			cout << board[i][j];
+		}
+		cout << endl;
+	}
 }
 
 int main(int argc, char** argv) {
 	cout << "·¶ÕÕÔÆ³öÆ·" << endl;
-
+	cout << 6 / 3 * 3<< endl;
 	test9();
 	system("pause");
 	return 0;

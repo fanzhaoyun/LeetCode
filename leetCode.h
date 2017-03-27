@@ -38,4 +38,5 @@ public:
 	vector<int> searchRange(vector<int>& nums, int target);
 	int searchInsert(vector<int>& nums, int target);
 	bool isValidSudoku(vector<vector<char>>& board);
+	void solveSudoku(vector<vector<char>>& board);
 };
