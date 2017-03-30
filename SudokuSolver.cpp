@@ -9,7 +9,7 @@ bool check(vector<vector<char>>& board, char ch, int row, int col) {
 	int y = col / 3 * 3;
 	for (int xx = x;xx < x + 3; xx++) {
 		for (int yy = y; yy < y + 3; yy++) {
-			if (board[x][y] == ch) return false;
+			if (board[xx][yy] == ch) return false;
 		}
 	}
 	return true;

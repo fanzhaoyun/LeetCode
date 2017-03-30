@@ -126,7 +126,7 @@ void test8() {
 	cout << endl;*/
 }
 void test9() {
-	string s[9] = { "....5..1.",".4.3.....",".....3..1","8......2.","..2.7....",".15......",".....2...",".2.9.....","..4......" };
+	string s[9] = { "..9748...","7........",".2.1.9...","..7...24.",".64.1.59.",".98...3..","...8.3.2.","........6","...2759.. "};
 	vector<vector<char>> board;
 	Solution solution;
 	for (int i = 0; i < 9; i++) {
@@ -145,10 +145,50 @@ void test9() {
 	}
 }
 
+void test10() {
+	Solution solution;
+	vector<int> candidates;
+	candidates.push_back(5);
+	candidates.push_back(4);
+	candidates.push_back(3);
+	candidates.push_back(2);
+	candidates.push_back(4);
+	candidates.push_back(5);
+	candidates.push_back(7);
+	candidates.push_back(100);
+	/*candidates.push_back(2);
+	candidates.push_back(1);
+	candidates.push_back(2);
+	candidates.push_back(1);*/
+
+
+	cout << solution.trap(candidates) << endl;
+}
+
+void test11() {
+	Solution solution;
+	vector<int> candidates;
+	candidates.push_back(10);
+	candidates.push_back(1);
+	candidates.push_back(2);
+	candidates.push_back(7);
+	candidates.push_back(6);
+	candidates.push_back(1);
+	candidates.push_back(5);
+
+
+	vector<vector<int>> res = solution.combinationSum2(candidates, 8);
+	for (int i = 0; i < res.size(); i++) {
+		for (int j = 0; j < res[i].size(); j++) {
+			cout << res[i][j];
+		}
+		cout << endl;
+	}
+}
+
 int main(int argc, char** argv) {
 	cout << "·¶ÕÕÔÆ³öÆ·" << endl;
-	cout << 6 / 3 * 3<< endl;
-	test9();
+	test10();
 	system("pause");
 	return 0;
 }

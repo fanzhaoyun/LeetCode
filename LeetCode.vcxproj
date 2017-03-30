@@ -149,7 +149,11 @@
   <ItemGroup>
     <ClCompile Include="3Sum.cpp" />
     <ClCompile Include="4Sum.cpp" />
+    <ClCompile Include="CombinationSum.cpp" />
+    <ClCompile Include="CombinationSumII.cpp" />
+    <ClCompile Include="CountandSay.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
+    <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="ImplementstrStr.cpp" />
     <ClCompile Include="lcMain.cpp" />
@@ -171,6 +175,7 @@
     <ClCompile Include="SudokuSolver.cpp" />
     <ClCompile Include="SwapNodesinPairs.cpp" />
     <ClCompile Include="threeSumClosest.cpp" />
+    <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
     <ClCompile Include="ValidSudoku.cpp" />
   </ItemGroup>

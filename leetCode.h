@@ -39,4 +39,9 @@ public:
 	int searchInsert(vector<int>& nums, int target);
 	bool isValidSudoku(vector<vector<char>>& board);
 	void solveSudoku(vector<vector<char>>& board);
+	string countAndSay(int n);
+	vector<vector<int>> combinationSum(vector<int>& candidates, int target);
+	vector<vector<int>> combinationSum2(vector<int>& candidates, int target);
+	int firstMissingPositive(vector<int>& nums);
+	int trap(vector<int>& height);
 };

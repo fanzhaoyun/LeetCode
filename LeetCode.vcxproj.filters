@@ -101,5 +101,20 @@
     <ClCompile Include="SudokuSolver.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CountandSay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CombinationSum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CombinationSumII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstMissingPositive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TrappingRainWater.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
