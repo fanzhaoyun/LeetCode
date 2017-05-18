@@ -1,4 +1,5 @@
 #include<iostream>
+#include<Windows.h>
 #include"leetCode.h"
 
 void test1() {
@@ -91,10 +92,10 @@ void test5() {
 	cout << endl;
 }
 void test6() {
-	string str1 = "(()((()";
-	string str2 = "";
+	string str1 = "aaa";
+	string str2 = "***a";
 	Solution solution;
-	cout << solution.longestValidParentheses(str1) << endl;
+	cout << solution.isMatch(str1,str2) << endl;
 }
 void test7() {
 	vector<string> words;
@@ -148,36 +149,36 @@ void test9() {
 void test10() {
 	Solution solution;
 	vector<int> candidates;
-	candidates.push_back(5);
-	candidates.push_back(4);
-	candidates.push_back(3);
-	candidates.push_back(2);
-	candidates.push_back(4);
-	candidates.push_back(5);
-	candidates.push_back(7);
-	candidates.push_back(100);
-	/*candidates.push_back(2);
 	candidates.push_back(1);
 	candidates.push_back(2);
-	candidates.push_back(1);*/
+	candidates.push_back(0);
+	candidates.push_back(1);
+	//candidates.push_back(4);
+	//candidates.push_back(5);
+	//candidates.push_back(7);
+	//candidates.push_back(100);
+	//candidates.push_back(2);
+	//candidates.push_back(1);
+	//candidates.push_back(2);
+	//candidates.push_back(1);
 
 
-	cout << solution.trap(candidates) << endl;
+	cout << solution.jump(candidates) << endl;
 }
 
 void test11() {
 	Solution solution;
 	vector<int> candidates;
-	candidates.push_back(10);
-	candidates.push_back(1);
-	candidates.push_back(2);
-	candidates.push_back(7);
-	candidates.push_back(6);
-	candidates.push_back(1);
-	candidates.push_back(5);
+	candidates.push_back(3);
+	candidates.push_back(3);
+	candidates.push_back(0);
+	candidates.push_back(3);
+	/*candidates.push_back(6);
+	candidates.push_back(4);
+	candidates.push_back(5);*/
 
 
-	vector<vector<int>> res = solution.combinationSum2(candidates, 8);
+	vector<vector<int>> res = solution.permuteUnique(candidates);
 	for (int i = 0; i < res.size(); i++) {
 		for (int j = 0; j < res[i].size(); j++) {
 			cout << res[i][j];
@@ -186,9 +187,71 @@ void test11() {
 	}
 }
 
+void test12() {
+	Solution solution;
+	vector<vector<int>> candidates;
+	vector<int> c1, c2, c3;
+	c1.push_back(2);
+	c1.push_back(1);
+	c1.push_back(3);
+
+	c2.push_back(4);
+	c2.push_back(5);
+	c2.push_back(7);
+
+	c3.push_back(9);
+	c3.push_back(8);
+	c3.push_back(10);
+
+	candidates.push_back(c1);
+	candidates.push_back(c2);
+	candidates.push_back(c3);
+
+
+	solution.rotate(candidates);
+	for (int i = 0; i < candidates.size(); i++) {
+		for (int j = 0; j < candidates[i].size(); j++) {
+			cout << candidates[i][j]<<"\t";
+		}
+		cout << endl;
+	}
+}
+void test13() {
+	vector<string> strs;
+	strs.push_back("eat");
+	strs.push_back("tea");
+	strs.push_back("tan");
+	strs.push_back("ate");
+	strs.push_back("nat");
+	strs.push_back("bat");
+
+	Solution solution;
+	vector<vector<string>> board = solution.groupAnagrams(strs);
+	for (int i = 0; i < board.size(); i++) {
+		for (int j = 0; j < board[i].size(); j++) {
+			cout << board[i][j]<<" ";
+		}
+		cout << endl;
+	}
+}
+void test14() {
+	Solution solution;
+	cout << solution.totalNQueens(2) << endl;
+	/*for (int i = 0; i < board.size(); i++) {
+		for (int j = 0; j < board[i].size(); j++) {
+			cout << board[i][j] << " \n";
+		}
+		cout << endl;
+	}*/
+}
 int main(int argc, char** argv) {
 	cout << "·¶ÕÕÔÆ³öÆ·" << endl;
-	test10();
+	LARGE_INTEGER t1, t2, tc;
+	QueryPerformanceFrequency(&tc);
+	QueryPerformanceCounter(&t1);
+	test14();
+	QueryPerformanceCounter(&t2);
+	cout << "Use Time: " << (t2.QuadPart - t1.QuadPart)*1000.0 / tc.QuadPart << "ms"<<endl;
 	system("pause");
 	return 0;
 }

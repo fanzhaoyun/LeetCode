@@ -1,14 +1,116 @@
-﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (LeetCode.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+﻿  WildcardMatching.cpp
+d:\mycode\c++\leetcode\leetcode\wildcardmatching.cpp(5): warning C4018: “>”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\wildcardmatching.cpp(16): warning C4018: “>”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\wildcardmatching.cpp(18): warning C4018: “<=”: 有符号/无符号不匹配
+  ValidSudoku.cpp
+d:\mycode\c++\leetcode\leetcode\validsudoku.cpp(11): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\validsudoku.cpp(12): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\validsudoku.cpp(23): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\validsudoku.cpp(24): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\validsudoku.cpp(35): warning C4018: “<”: 有符号/无符号不匹配
+  ValidParentheses.cpp
+d:\mycode\c++\leetcode\leetcode\validparentheses.cpp(5): warning C4018: “<”: 有符号/无符号不匹配
+  TrappingRainWater.cpp
+  threeSumClosest.cpp
+d:\mycode\c++\leetcode\leetcode\threesumclosest.cpp(11): warning C4018: “<”: 有符号/无符号不匹配
+  SwapNodesinPairs.cpp
+  SudokuSolver.cpp
+d:\mycode\c++\leetcode\leetcode\sudokusolver.cpp(4): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\sudokusolver.cpp(21): warning C4018: “>=”: 有符号/无符号不匹配
+  SubstringwithConcatenationofAllWords.cpp
+d:\mycode\c++\leetcode\leetcode\substringwithconcatenationofallwords.cpp(26): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\substringwithconcatenationofallwords.cpp(31): warning C4018: “<”: 有符号/无符号不匹配
+  SpiralMatrix.cpp
+  SearchInsertPosition.cpp
+  SearchinRotatedSortedArray.cpp
+d:\mycode\c++\leetcode\leetcode\searchinrotatedsortedarray.cpp(16): warning C4018: “<”: 有符号/无符号不匹配
+  SearchforaRange.cpp
+  RotateImage.cpp
+  RomanToInteger.cpp
+d:\mycode\c++\leetcode\leetcode\romantointeger.cpp(15): warning C4018: “<”: 有符号/无符号不匹配
+  ReverseNodesink-Group.cpp
+  RemoveNthNodeFromEndofList.cpp
+  RemoveElement.cpp
+d:\mycode\c++\leetcode\leetcode\removeelement.cpp(5): warning C4018: “<”: 有符号/无符号不匹配
+  RemoveDuplicatesfromSortedArray.cpp
+  Pow(x, n).cpp
+  PermutationsII.cpp
+d:\mycode\c++\leetcode\leetcode\permutationsii.cpp(10): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\permutationsii.cpp(18): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+d:\mycode\c++\leetcode\leetcode\sudokusolver.cpp(48): warning C4715: “sudokuBack”: 不是所有的控件路径都返回值
+  正在编译...
+  Permutations.cpp
+d:\mycode\c++\leetcode\leetcode\permutations.cpp(10): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\permutations.cpp(25): warning C4018: “<”: 有符号/无符号不匹配
+  NextPermutation.cpp
+  N-QueensII.cpp
+d:\mycode\c++\leetcode\leetcode\n-queensii.cpp(4): warning C4018: “<”: 有符号/无符号不匹配
+  N-Queens.cpp
+d:\mycode\c++\leetcode\leetcode\n-queens.cpp(66): warning C4018: “<”: 有符号/无符号不匹配
+  MultiplyStrings.cpp
+  MergeTwoSortedLists.cpp
+  MergekSortedLists.cpp
+  MaximumSubarray.cpp
+d:\mycode\c++\leetcode\leetcode\maximumsubarray.cpp(7): warning C4018: “<”: 有符号/无符号不匹配
+  LongestValidParentheses.cpp
+d:\mycode\c++\leetcode\leetcode\longestvalidparentheses.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\longestvalidparentheses.cpp(16): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\longestvalidparentheses.cpp(20): warning C4018: “>”: 有符号/无符号不匹配
+  LongestCommonPrefix.cpp
+d:\mycode\c++\leetcode\leetcode\longestcommonprefix.cpp(10): warning C4018: “<”: 有符号/无符号不匹配
+  LetterCombinationsofaPhoneNumber.cpp
   lcMain.cpp
-d:\mycode\c++\leetcode\leetcode\lcmain.cpp(15): warning C4018: “<”: 有符号/无符号不匹配
 d:\mycode\c++\leetcode\leetcode\lcmain.cpp(16): warning C4018: “<”: 有符号/无符号不匹配
-d:\mycode\c++\leetcode\leetcode\lcmain.cpp(54): warning C4018: “<”: 有符号/无符号不匹配
-d:\mycode\c++\leetcode\leetcode\lcmain.cpp(88): warning C4018: “<”: 有符号/无符号不匹配
-d:\mycode\c++\leetcode\leetcode\lcmain.cpp(108): warning C4018: “<”: 有符号/无符号不匹配
-d:\mycode\c++\leetcode\leetcode\lcmain.cpp(134): warning C4018: “<”: 有符号/无符号不匹配
-d:\mycode\c++\leetcode\leetcode\lcmain.cpp(140): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\lcmain.cpp(17): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\lcmain.cpp(55): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\lcmain.cpp(89): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\lcmain.cpp(109): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\lcmain.cpp(135): warning C4018: “<”: 有符号/无符号不匹配
 d:\mycode\c++\leetcode\leetcode\lcmain.cpp(141): warning C4018: “<”: 有符号/无符号不匹配
-d:\mycode\c++\leetcode\leetcode\lcmain.cpp(181): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\lcmain.cpp(142): warning C4018: “<”: 有符号/无符号不匹配
 d:\mycode\c++\leetcode\leetcode\lcmain.cpp(182): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\lcmain.cpp(183): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\lcmain.cpp(212): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\lcmain.cpp(213): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\lcmain.cpp(230): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\lcmain.cpp(231): warning C4018: “<”: 有符号/无符号不匹配
+  JumpGameII.cpp
+d:\mycode\c++\leetcode\leetcode\jumpgameii.cpp(11): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\jumpgameii.cpp(13): warning C4018: “>=”: 有符号/无符号不匹配
+  ImplementstrStr.cpp
+d:\mycode\c++\leetcode\leetcode\implementstrstr.cpp(8): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\implementstrstr.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
+  GroupAnagrams.cpp
+d:\mycode\c++\leetcode\leetcode\groupanagrams.cpp(8): warning C4018: “<”: 有符号/无符号不匹配
+  GenerateParentheses.cpp
+  FirstMissingPositive.cpp
+d:\mycode\c++\leetcode\leetcode\firstmissingpositive.cpp(8): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\firstmissingpositive.cpp(9): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\firstmissingpositive.cpp(18): warning C4018: “<”: 有符号/无符号不匹配
+  DivideTwoIntegers.cpp
+d:\mycode\c++\leetcode\leetcode\dividetwointegers.cpp(27): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  CountandSay.cpp
+d:\mycode\c++\leetcode\leetcode\countandsay.cpp(12): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\countandsay.cpp(16): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+d:\mycode\c++\leetcode\leetcode\countandsay.cpp(24): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+  CombinationSumII.cpp
+d:\mycode\c++\leetcode\leetcode\combinationsumii.cpp(4): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\combinationsumii.cpp(9): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+  正在编译...
+  CombinationSum.cpp
+d:\mycode\c++\leetcode\leetcode\combinationsum.cpp(4): warning C4018: “<”: 有符号/无符号不匹配
+  4Sum.cpp
+d:\mycode\c++\leetcode\leetcode\4sum.cpp(8): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\4sum.cpp(10): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\4sum.cpp(36): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\4sum.cpp(39): warning C4018: “<”: 有符号/无符号不匹配
+  3Sum.cpp
+d:\mycode\c++\leetcode\leetcode\3sum.cpp(36): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\c++\leetcode\leetcode\3sum.cpp(64): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
   LeetCode.vcxproj -> D:\MyCode\C++\LeetCode\Debug\MyLeetCode.exe
   LeetCode.vcxproj -> D:\MyCode\C++\LeetCode\Debug\MyLeetCode.pdb (Full PDB)

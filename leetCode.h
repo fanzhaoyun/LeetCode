@@ -7,6 +7,7 @@
 #include<map>
 #include<stack>
 #include<unordered_map>
+#include<iostream>
 
 #include"dataStruct.h"
 
@@ -44,4 +45,17 @@ public:
 	vector<vector<int>> combinationSum2(vector<int>& candidates, int target);
 	int firstMissingPositive(vector<int>& nums);
 	int trap(vector<int>& height);
+	string multiply(string num1, string num2);
+	bool isMatch(string s, string p);
+	int jump(vector<int>& nums);
+	vector<vector<int>> permute(vector<int>& nums);
+	vector<vector<int>> permuteUnique(vector<int>& nums);
+	void rotate(vector<vector<int>>& matrix);
+	vector<vector<string>> groupAnagrams(vector<string>& strs);
+	double myPow(double x, int n);
+	vector<vector<string>> solveNQueens(int n);
+	int totalNQueens(int n);
+	int maxSubArray(vector<int>& nums);
+	vector<int> spiralOrder(vector<vector<int>>& matrix);
+
 };
